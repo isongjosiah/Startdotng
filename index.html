@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+
+    <div class="contact-title">
+        <h1>Contact Me</h1>
+        <h2>Would love to hear from you</h2>
+    </div>
+    <form id="contact-form" action="" method="post">
+        <label for="title"></label><br>
+        <input type="text" id="title" name="title" class="form-control" required placeholder="Title" autofocus> <br>
+        <label for="username"> Name: </label><br>
+        <input type="text" name="name" id="username" class="form-control" minlength="4" required> <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" class = "form-control" placeholder="you@example.com" required><br>
+        <label for="message">message</label><br>
+        <textarea name="message" id="message"  class="form-control" rows="5" required minlength="20"></textarea><br>
+
+        <input type="submit" class="form-control submit" value="submit" >
+        
+    </form>
+</div>
+</body>
+</html>
